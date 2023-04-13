@@ -12,7 +12,6 @@ The model was trained using the YOLOv5 algorithm with the PyTorch framework. The
 To use the model for inference, run the detect.py script with the path to the image you want to detect clocks in, like so:
 
 ```
-Copy code
 python detect.py --source /path/to/image.jpg
 ``` 
 The script will output an image with bounding boxes around detected clocks.
@@ -20,6 +19,6 @@ The script will output an image with bounding boxes around detected clocks.
 ### Performance
 The model achieved an mAP of 0.95 on the validation set, indicating strong performance on the task of clock detection. However, performance may vary depending on the specific use case and image conditions.
 
-###     Acknowledgements
+### Acknowledgements
 YOLOv5 implementation in PyTorch: https://github.com/ultralytics/yolov5
 Roboflow platform for dataset creation and annotation: https://roboflow.com/
